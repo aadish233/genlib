@@ -6,6 +6,17 @@ The main purpose of the tool is to provide a generic document ranking framework 
 
 ## Step 0 : Setup.
 
+#### Download nltk library and stopwords
+
+```
+pip install nltk
+```
+
+```
+>>> import nltk
+>>> nltk.download('stopwords')
+```
+
 The library achieves slightly better accuracy with less number of training epochs if pre-trained word vectors are used. Using pre-trained word vectors is optional and depends on the user. However, if it is intended to use pre-trained word vectors, then download and unzip these vectors from [here](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g). The file size is big (around 1.5 GB). The unzipped file and the library file must be present at the same directory level. The library file is available [here](https://drive.google.com/file/d/1Ffi17vd3t4r-nJgzCk5aUjthZsgi_xwh/view?usp=sharing). 
 
 #### Compatibility : 
