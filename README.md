@@ -118,7 +118,7 @@ gl.load_model()
 ```
 
 ## Step 3 : Clustering 
-This step performs hierarchical agglomerative clustering for document vectors of each tag. The clustering is performed based on the method described here. To perform clustering after training of the model, use the “clustering()” method of the GenLib class. The clustering uses the ward method with the euclidean distance metric. It also performs outlier elimination as given in the paper. The end result of this step is a representative vector for each tag which will be saved in the “centroids” folder. Once the representative vectors are saved, clustering need not be performed again. The centroids can be reloaded using the “load_centroids()” method of the GenLib class.
+This step performs hierarchical agglomerative clustering for document vectors of each tag. The clustering is performed based on the method described [here](https://www.cse.iitd.ac.in/~aseth/explaining_development_patterns.pdf). To perform clustering after training of the model, use the “clustering()” method of the GenLib class. The clustering uses the ward method with the euclidean distance metric. It also performs outlier elimination as given in the paper. The end result of this step is a representative vector for each tag which will be saved in the “centroids” folder. Once the representative vectors are saved, clustering need not be performed again. The centroids can be reloaded using the “load_centroids()” method of the GenLib class.
 
 #### Methods : 
 ```
